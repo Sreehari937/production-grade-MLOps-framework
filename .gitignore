@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+myenv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and local databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Model artifacts
+models/
+model_artifacts/
+phase2_model/
+*.pkl
+*.joblib
+*.ubj
+
+# Data artifacts
+data/
+*.parquet
+telecom_churn.csv
+
+# Local project tool state
+anaconda_projects/
