@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/a/Desktop/intership/MLOPS/mlruns/152640361395568620/models/m-f69988bd8c2740ae9722a58923102153/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.0
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.11.1
+model_id: m-f69988bd8c2740ae9722a58923102153
+model_size_bytes: 517166
+model_uuid: m-f69988bd8c2740ae9722a58923102153
+prompts: null
+run_id: a4059b63bbe04b4fafe05cd8cdae76a5
+utc_time_created: '2026-05-17 15:15:51.689231'

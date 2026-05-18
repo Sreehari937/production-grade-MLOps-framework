@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/a/Desktop/intership/MLOPS/mlruns/152640361395568620/models/m-cdcf83d82b58400bbbf25c2c7e250fe5/artifacts
+creation_timestamp: 1779090256359
+experiment_id: '152640361395568620'
+last_updated_timestamp: 1779090265737
+model_id: m-cdcf83d82b58400bbbf25c2c7e250fe5
+model_type: null
+name: xgb_churn_model
+source_run_id: 06a87990e222463db6eab828c2a9ff28
+status: 2
+status_message: null

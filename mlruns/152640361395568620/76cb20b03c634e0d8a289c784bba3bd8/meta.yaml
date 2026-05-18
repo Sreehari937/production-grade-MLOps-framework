@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/a/Desktop/intership/MLOPS/mlruns/152640361395568620/76cb20b03c634e0d8a289c784bba3bd8/artifacts
+end_time: 1776408795168
+entry_point_name: ''
+experiment_id: '152640361395568620'
+lifecycle_stage: active
+run_id: 76cb20b03c634e0d8a289c784bba3bd8
+run_name: drift_detection_v1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776408794853
+status: 3
+tags: []
+user_id: a

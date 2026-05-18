@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/a/Desktop/intership/MLOPS/mlruns/152640361395568620/26835fd9b1cb4f1d849ca06c77409bb0/artifacts
+end_time: 1776409641634
+entry_point_name: ''
+experiment_id: '152640361395568620'
+lifecycle_stage: active
+run_id: 26835fd9b1cb4f1d849ca06c77409bb0
+run_name: evaluation_v1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776409641303
+status: 3
+tags: []
+user_id: a
