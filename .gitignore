@@ -1,2 +1,8 @@
-.env
-/telecom_churn.csv
+mlruns/ 
+__pycache__/ 
+*.parquet 
+*.pyc 
+mlartifacts/ 
+mlflow.db 
+temp_repo/ 
+outputs/ 
