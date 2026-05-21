@@ -2,6 +2,11 @@
 Tests for Telecom Churn Prediction API
 Run with: pytest tests/test_api.py -v
 """
+
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+
 from fastapi.testclient import TestClient
 from unittest.mock import MagicMock, patch
 import numpy as np
