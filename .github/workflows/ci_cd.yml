@@ -25,7 +25,9 @@ jobs:
         run: pip install fastapi uvicorn pandas mlflow scikit-learn numpy pydantic pytest httpx
 
       - name: Run tests
-        run: pytest deployment/tests/test_api.py -v
+        run: |
+          cd deployment
+          pytest tests/test_api.py -v
 
   # 2. Build and Push Docker image
   build:
