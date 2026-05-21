@@ -4,3 +4,8 @@ __pycache__/
 *.pyc 
 .prefect/ 
 outputs/ 
+mlruns/ 
+__pycache__/ 
+*.parquet 
+*.pyc 
+.prefect/ 
