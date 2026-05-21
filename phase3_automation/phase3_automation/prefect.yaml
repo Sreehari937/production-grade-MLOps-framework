@@ -1,0 +1,12 @@
+name: churn-pipeline
+prefect-version: 3.0.0
+
+deployments:
+  - name: churn-pipeline
+    entrypoint: main_flow.py:main_flow
+    work_pool:
+      name: default-agent-pool
+      work_queue_name: default
+    schedules:
+      - cron: "0 6 * * *"
+        timezone: "Asia/Kolkata"
