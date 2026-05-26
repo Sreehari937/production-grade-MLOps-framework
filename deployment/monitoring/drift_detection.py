@@ -77,19 +77,17 @@ def run_drift_report(reference: pd.DataFrame, current: pd.DataFrame) -> dict:
     ref = reference[common_cols].reset_index(drop=True)
     cur = current[common_cols].reset_index(drop=True)
 
-    report = Report(metrics=[
-        DataDriftPreset(),
-        DataSummaryPreset(),
-    ])
+    report = Report(metrics=[DataDriftPreset(), DataSummaryPreset()])
 
-    report.run(reference_data=ref, current_data=cur)
+    # run() returns a Snapshot object in evidently 0.7.x
+    snapshot = report.run(reference_data=ref, current_data=cur)
 
     timestamp   = datetime.now().strftime("%Y%m%d_%H%M%S")
     report_path = f"{REPORT_DIR}/drift_report_{timestamp}.html"
-    report.save_html(report_path)
+    snapshot.save_html(report_path)
     print(f"  Drift report saved: {report_path}")
 
-    result  = report.as_dict()
+    result  = snapshot.dict()
     metrics = result.get("metrics", [])
 
     drift_share  = 0
