@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/a/Desktop/intership/MLOPS/mlruns/860021679071347097/2bbf61fe26a74df180300d1ec70cf28d/artifacts
+end_time: 1779095761825
+entry_point_name: ''
+experiment_id: '860021679071347097'
+lifecycle_stage: active
+run_id: 2bbf61fe26a74df180300d1ec70cf28d
+run_name: logreg_baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779095718946
+status: 3
+tags: []
+user_id: a
