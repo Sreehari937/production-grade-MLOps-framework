@@ -1,3 +1,3 @@
 .env
 /telecom_churn.csv
-anaconda_projects/
+anaconda_projects/feature_store/data/online_store.db 
