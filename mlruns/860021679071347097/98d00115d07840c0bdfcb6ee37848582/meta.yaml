@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/a/Desktop/intership/MLOPS/mlruns/860021679071347097/98d00115d07840c0bdfcb6ee37848582/artifacts
+end_time: 1779094914395
+entry_point_name: ''
+experiment_id: '860021679071347097'
+lifecycle_stage: active
+run_id: 98d00115d07840c0bdfcb6ee37848582
+run_name: xgb_v2_tuned
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1779094899343
+status: 3
+tags: []
+user_id: a
