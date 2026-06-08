@@ -22,10 +22,13 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt pytest httpx
-
+        run: |
+          cd deployment
+          pip install -r requirements.txt pytest httpx
       - name: Run tests
-        run: pytest tests/ -v
+        run: |
+          cd deployment
+          pytest tests/ -v
 
   # ── 2. Build & Push Docker image ───────────────────────────────────────────
   build:
