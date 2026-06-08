@@ -1,8 +1,0 @@
-artifact_location: file:C:/Users/a/Desktop/intership/MLOPS/mlruns/860021679071347097
-creation_time: 1779094899243
-experiment_id: '860021679071347097'
-last_update_time: 1779094899243
-lifecycle_stage: active
-name: telecom-churn-phase4
-trace_location: null
-workspace: default
